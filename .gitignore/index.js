@@ -17,4 +17,4 @@ Hâte de te voir parmi nous ${member}!`);
 
 
 
-client.login(process.env.TOKEN)
+bot.login(process.env.TOKEN)
