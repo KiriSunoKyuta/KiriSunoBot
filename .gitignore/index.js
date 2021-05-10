@@ -11,7 +11,7 @@ bot.on("ready", async () => {
 });
 
 bot.on("guildMemberAdd", member => {
-    member.send(`Yoo, bienvenue sur le serveur ! Va lire le règlement et clique sur la petite emote verte en dessous pour avoir accès au serveur ! 
+    member.send(`Yoo, bienvenue sur le serveur ! Va lire le règlement dans #informations et clique sur la petite emote verte en dessous pour avoir accès au serveur ! 
 Hâte de te voir parmi nous ${member}!`);
 })
 
